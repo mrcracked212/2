@@ -1,0 +1,35 @@
+module.exports = {
+  BOT_TOKEN: "ISI_TOKEN_BOT",
+  OWNER_ID: 123456789,
+
+  ADMINS: [
+    123456789,
+    987654321
+  ],
+
+  BOT_NAME: "Bot Jasa Share Promosi",
+  COMMAND_PREFIX: "/",
+
+  DATABASE_PATH: "./data",
+
+  MIN_GROUP_MEMBER_FOR_TRIAL: 30,
+  REQUIRED_TRIAL_GROUPS: 3,
+
+  DEFAULT_DELAYS: {
+    trial: 60,
+    pro: 30,
+    vip: 15
+  },
+
+  BROADCAST: {
+    BATCH_SIZE: 20,
+    DELAY_BETWEEN_BATCH_MS: 3000,
+    MAX_MESSAGE_LENGTH: 3500
+  },
+
+  SECURITY: {
+    MAX_PROMO_PER_DAY_TRIAL: 3,
+    MAX_PROMO_PER_DAY_PRO: 20,
+    MAX_PROMO_PER_DAY_VIP: 50
+  }
+};
