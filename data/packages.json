@@ -1,0 +1,24 @@
+{
+  "trial": {
+    "name": "Trial Basic",
+    "can_share_group": true,
+    "can_share_user": false,
+    "can_share_all": false,
+    "delay_seconds": 60,
+    "default_duration": "3d"
+  },
+  "pro": {
+    "name": "Pro",
+    "can_share_group": true,
+    "can_share_user": false,
+    "can_share_all": false,
+    "delay_seconds": 30
+  },
+  "vip": {
+    "name": "VIP",
+    "can_share_group": true,
+    "can_share_user": true,
+    "can_share_all": true,
+    "delay_seconds": 15
+  }
+}
